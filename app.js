@@ -8,7 +8,6 @@ app.use(express.static('public'))
 
 app.get('/', (request, response) => {
   response.sendFile(path.join(__dirname + '/app.html'));
-
 });
 
 
